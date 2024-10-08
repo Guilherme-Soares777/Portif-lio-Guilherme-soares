@@ -1,0 +1,61 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #222;
+    color: #fff;
+}
+
+header {
+    background-color: #111;
+    padding: 20px;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav li {
+    display: inline-block;
+    margin: 0 10px;
+}
+
+main {
+    padding: 50px;
+    text-align: center;
+}
+
+.btn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+} 
+.text-home{ 
+    text-align: center;
+} 
+.contato{
+    text-align: center; 
+    text-decoration: dashed;
+} 
+.fotin{
+    div {
+        display: flex; /* Transforma a div em um container flex */
+        justify-content: space-between; /* Distribui as imagens com espaço entre elas */
+    }
+    
+    img {
+        width: 300px; /* Define a largura de cada imagem */ 
+        margin:  20px;
+    }
+} 
+.container{
+    text-align: center; 
+    
+
+}
